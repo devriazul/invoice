@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    background-color: #F4F7FC;
+    font-family: 'Montserrat', sans-serif;
+    color: #252d6d;
+}
+.container.header-office-info small{
+    display:block;
+}
+.header-office-info address {
+    margin-top: 15px;
+}
+.card.custom-card {
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 5px 15px 0px #ececec;
+    margin-top: 15px;
+}
+.card.custom-card .card-header {
+    background-color: #fff;
+    border: none;
+}
+.card.custom-card h4 {
+    color: #252d6d;
+}
+.card.custom-card label {
+    color: #252d6d;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card.custom-card input, .card.custom-card textarea, .card.custom-card date {
+    border-radius: 0;
+    border: 0;
+}
+
+table.total-table td:last-child {
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: #252d6c;
+}
+table.total-table td:first-child {
+    padding-right: 15px;
+}
+.table-form th {
+    color: #252d6d;
+    font-weight: 500;
+    font-size: 15px;
+}
+.form-group.form-custom input[type="date"] {
+    font-size: 13px;
+    font-weight: 500;
+    color: #252d6d;
+}
+table.total-table td:first-child {
+    padding-right: 15px;
+    color: #252d6d;
+    font-weight: 500;
+}
+.table-form.table thead th {
+    border-bottom-width: 1px;
+}
+b#invoice_no {
+    color: #252d6d;
+    font-size: 14px;
+}
+button.create-btn {
+    background-color: #252d6d;
+    border: none;
+    padding: 7px 25px;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+table#myTable button {
+    border: 0;
+    border-radius: 0;
+}
+
+button#addRow {
+    background-color: #252d6d;
+}
+
+.logo-wrap address {
+    color: #252d6d;
+    line-height: 1.5;
+}
+.logo-wrap address small {
+    display: block;
+}
+
+.invoice-number h5 {
+    font-size: 18px;
+    color: #d81d21;
+    border-bottom: 1px dotted;
+}
+.invoice-number b {
+    color: #252d6d;
+    letter-spacing: 1px;
+}
+.client-info-box h5 {
+    color: #262c6d;
+    font-size: 18px;
+    border-bottom: 1px dotted;
+}
+.client-info-box address b {
+    font-size: 14px;
+    color: #252d6d;
+}
+.client-info-box address p {
+    font-size: 14px;
+}
+.invoice-info-date h5 {
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px dotted;
+}
+.view-table table thead {
+    background-color: #252d6d;
+    color: #fff;
+    font-size: 14px;
+}
+
+.view-table table thead th {
+    font-weight: 500;
+}
+.view-table table tbody td {
+    padding: 0;
+}
+.view-table table tbody td p {
+    margin: 0;
+}
+.view-table table tbody td {
+    padding: 7px 12px;
+}
+.view-table table tbody td p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.view-table table tbody td:nth-child(2),
+.view-table table thead th:nth-child(2),
+.view-table table tbody td:nth-child(3),
+.view-table table thead th:nth-child(3)
+
+{
+    text-align: center;
+}
+
+.view-table table tbody td:nth-child(4),
+.view-table table thead th:nth-child(4)
+
+{
+    text-align: right;
+}
+table.table-borderless.view-total-table td {
+    color: #252d6d;
+}
+table.table-borderless.view-total-table b,
+table.table-borderless.view-total-table p {
+    font-weight: 600;
+    color: #252d6d;
+}
+.footer-text-copyright p {
+    font-size: 12px;
+    margin: 0;
+}
+.table.table-responsive.view-table {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.btn-wrap-row {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 888;
+    top: 0;
+}
+.btn-wrap-row a {
+    border: none;
+    font-size: 14px;
+    background-color: #252d6d;
+    border-radius: 0;
+}
+.btn-wrap-row a i {
+    padding-right: 7px;
+    color: #ff2b31;
+}
+.btn-wrap-row a:hover {
+    background-color: #121638;
+    color: #fff;
+}
+
+.max-w-sm.w-full.bg-white.shadow-lg.rounded-lg.pointer-events-auto {
+    margin-top: 50px;
+}
+.client-info-box b {
+    display: block;
+}
