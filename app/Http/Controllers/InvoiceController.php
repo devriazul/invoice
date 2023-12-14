@@ -146,8 +146,8 @@ class invoiceController extends Controller
         $pdf->save($path . '/' . $fileName);
 
         $email = new InvoiceEmail($invoices, $invoicesProducts);
-        $recipient = 'engr.riazul@gmail.com';
-        $ccRecipient = 'aiub.tanvir@gmail.com';
+        $recipient = 'finance@ukmcglobal.com';
+        $ccRecipient = 'zahid@@ukmcglobal.com';
 
         Mail::to($recipient)
             ->cc($ccRecipient)
