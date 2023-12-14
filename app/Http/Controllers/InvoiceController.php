@@ -147,7 +147,7 @@ class invoiceController extends Controller
 
         $email = new InvoiceEmail($invoices, $invoicesProducts);
         $recipient = 'finance@ukmcglobal.com';
-        $ccRecipient = 'zahid@@ukmcglobal.com';
+        $ccRecipient = 'zahid@ukmcglobal.com';
 
         Mail::to($recipient)
             ->cc($ccRecipient)
